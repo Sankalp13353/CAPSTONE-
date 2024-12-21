@@ -1,10 +1,3 @@
-:root {
-    --primary-color: #1a1a1a;
-    --accent-color: #00ffff;
-    --text-color: #ffffff;
-    --gradient-start: #2c3e50;
-    --gradient-end: #3498db;
-}
 
 * {
     margin: 0;
@@ -14,8 +7,8 @@
 
 body {
     font-family: 'Public Sans';
-    background-color: var(--primary-color);
-    color: var(--text-color);
+    background-color:#000000;
+    color: #FFFFFF;
     line-height: 1.6;
 }
 
@@ -29,14 +22,13 @@ body {
     top: 1.5rem;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 1000;
     max-width: 1400px;
 
     font-family: 'Public Sans';
 }
 
 .nav-links a, .nav-right a {
-    color: var(--text-color);
+    color: #FFFFFF;
     text-decoration: none;
     margin: 0 1rem;
     font-weight: 500;
@@ -44,13 +36,13 @@ body {
 }
 
 .nav-links a:hover, .nav-right a:hover {
-    color: var(--accent-color);
+    color: #FFFFFF;
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--text-color);
+    color: #FFFFFF;
     margin-right: 110px;
 }
 .line{
@@ -111,7 +103,7 @@ main {
 .portfolio-item img {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    
 }
 
 .portfolio-item h3 {
@@ -126,7 +118,7 @@ main {
 
 .services {
     padding: 4rem 2rem;
-    background-color: var(--primary-color);
+    background-color: #000000;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -209,7 +201,7 @@ main {
     justify-content: flex-end;
     margin-left: auto;
     font-family: 'Public Sans';
-    width: fit-content;
+   
 }
 
 .contact-form {
@@ -235,7 +227,7 @@ main {
     border: 1px solid white;
     padding: 0.8rem;
     border-radius: 8px;
-    color: var(--text-color);
+    color: #FFFFFF5C;
     text-align: center;
 }
 
@@ -253,7 +245,7 @@ main {
     font-family: 'Public Sans';
 }
 .submit-btn:hover {
-    background: var(--gradient-end);
+    background: #928DD3;
     color: white;
 }
 .skip-btn {
@@ -267,7 +259,7 @@ main {
     font-family: 'Public Sans';
 }
 .skip-btn:hover{
-    color: var(--text-color);
+    color: #928DD3;
 }
 
 footer {
@@ -297,6 +289,6 @@ footer {
 }
 
 .follow-btn:hover {
-    background: var(--gradient-start);
-    color: var(--accent-color);
+    background: #000000;
+    color:#FFFFFF ;
 }
